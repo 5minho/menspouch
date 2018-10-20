@@ -1,0 +1,81 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/* left-box */
+.sos-me {
+    font-size: 20px;
+    letter-spacing: -2px;
+    color: #333;
+} .aaaaaaa { color: hotpink; } .aaaaaaa:hover { color: blue; }
+
+
+body { background: #fafafa; }
+.left-box {
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 240px;
+    padding: 30px;
+    background: #fff;
+    border-right: 1px solid #dbdbdb;
+}
+.left-logo { width: 85%; margin: 20px auto 20px auto; }
+.left-logo a img { width: 100%; }
+
+.left-user {
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    width: 75%;
+    margin: 0 auto 20px auto;
+}
+.left-user ul {
+    display: flex;
+    justify-content: center;
+}
+.left-user li {
+    text-align: center;
+    margin: 10px 5px;
+    font-weight: 700;
+    font-size: 1em;
+}
+.left-nav {
+    position: relative;
+    margin-left: 30px;
+}
+.left-nav ul { margin-top: 70px; }
+.left-nav li {
+    margin-top: 30px;
+    font-size: 1.3em;
+    letter-spacing: -2px;
+    word-spacing: 1px;
+}
+.left-nav li a:hover {
+    color: darkblue;
+}
+
+/* main-container */
+.main-container {
+    margin-right: 60px;
+    margin-left: 300px;
+    min-width: 1100px;
+    padding: 60px 0 0 60px;
+}
+.deco-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
